@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCSecondViewController.h"
 
 @interface CCViewController : UIViewController
+
+
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (nonatomic) BOOL isColorWhite;
+
+- (IBAction)updateLabelButtonPressed:(id)sender;
+- (IBAction)goToNextPageButtonPressed:(id)sender;
 
 @end

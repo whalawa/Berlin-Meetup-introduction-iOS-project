@@ -18,6 +18,9 @@
 		6F99EDDA17E3414400C1A2B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F99EDD917E3414400C1A2B8 /* Default-568h@2x.png */; };
 		6F99EDDD17E3414400C1A2B8 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F99EDDC17E3414400C1A2B8 /* CCViewController.m */; };
 		6F99EDE017E3414400C1A2B8 /* CCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F99EDDE17E3414400C1A2B8 /* CCViewController.xib */; };
+		6F99EDE917E341FA00C1A2B8 /* CCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F99EDE717E341FA00C1A2B8 /* CCSecondViewController.m */; };
+		6F99EDEA17E341FA00C1A2B8 /* CCSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F99EDE817E341FA00C1A2B8 /* CCSecondViewController.xib */; };
+		6F99EDEC17E3423600C1A2B8 /* Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F99EDEB17E3423600C1A2B8 /* Laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		6F99EDDB17E3414400C1A2B8 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		6F99EDDC17E3414400C1A2B8 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		6F99EDDF17E3414400C1A2B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController.xib; sourceTree = "<group>"; };
+		6F99EDE617E341FA00C1A2B8 /* CCSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSecondViewController.h; sourceTree = "<group>"; };
+		6F99EDE717E341FA00C1A2B8 /* CCSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSecondViewController.m; sourceTree = "<group>"; };
+		6F99EDE817E341FA00C1A2B8 /* CCSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCSecondViewController.xib; sourceTree = "<group>"; };
+		6F99EDEB17E3423600C1A2B8 /* Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,9 @@
 				6F99EDDB17E3414400C1A2B8 /* CCViewController.h */,
 				6F99EDDC17E3414400C1A2B8 /* CCViewController.m */,
 				6F99EDDE17E3414400C1A2B8 /* CCViewController.xib */,
+				6F99EDE617E341FA00C1A2B8 /* CCSecondViewController.h */,
+				6F99EDE717E341FA00C1A2B8 /* CCSecondViewController.m */,
+				6F99EDE817E341FA00C1A2B8 /* CCSecondViewController.xib */,
 				6F99EDCA17E3414400C1A2B8 /* Supporting Files */,
 			);
 			path = "Berlin Meetup Project";
@@ -96,6 +106,7 @@
 		6F99EDCA17E3414400C1A2B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F99EDEB17E3423600C1A2B8 /* Laika.jpg */,
 				6F99EDCB17E3414400C1A2B8 /* Berlin Meetup Project-Info.plist */,
 				6F99EDCC17E3414400C1A2B8 /* InfoPlist.strings */,
 				6F99EDCF17E3414400C1A2B8 /* main.m */,
@@ -164,6 +175,8 @@
 				6F99EDD817E3414400C1A2B8 /* Default@2x.png in Resources */,
 				6F99EDDA17E3414400C1A2B8 /* Default-568h@2x.png in Resources */,
 				6F99EDE017E3414400C1A2B8 /* CCViewController.xib in Resources */,
+				6F99EDEA17E341FA00C1A2B8 /* CCSecondViewController.xib in Resources */,
+				6F99EDEC17E3423600C1A2B8 /* Laika.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				6F99EDD017E3414400C1A2B8 /* main.m in Sources */,
 				6F99EDD417E3414400C1A2B8 /* CCAppDelegate.m in Sources */,
 				6F99EDDD17E3414400C1A2B8 /* CCViewController.m in Sources */,
+				6F99EDE917E341FA00C1A2B8 /* CCSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
